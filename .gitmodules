@@ -1,0 +1,53 @@
+[submodule "meta-hilscher-netfield"]
+	path = meta-hilscher-netfield
+	url = https://github.com/HilscherAutomation/meta-hilscher-netfield.git
+[submodule "meta-hilscher-netfield-intel"]
+	path = meta-hilscher-netfield-intel
+	url = https://github.com/HilscherAutomation/meta-hilscher-netfield-intel.git
+[submodule "meta-hilscher-netfield-raspberrypi"]
+	path = meta-hilscher-netfield-raspberrypi
+	url = https://github.com/HilscherAutomation/meta-hilscher-netfield-raspberrypi.git
+[submodule "meta-hilscher-netfield-imx8"]
+	path = meta-hilscher-netfield-imx8
+	url = https://github.com/HilscherAutomation/meta-hilscher-netfield-imx8.git
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/poky
+	branch = dunfell
+[submodule "meta-swupdate"]
+	path = meta-swupdate
+	url = https://github.com/sbabic/meta-swupdate
+	branch = dunfell
+[submodule "meta-security"]
+	path = meta-security
+	url = https://git.yoctoproject.org/meta-security
+	branch = dunfell
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = https://git.yoctoproject.org/meta-raspberrypi
+	branch = dunfell
+[submodule "meta-intel"]
+	path = meta-intel
+	url = https://git.yoctoproject.org/meta-intel
+	branch = dunfell
+[submodule "meta-gplv2"]
+	path = meta-gplv2
+	url = https://git.yoctoproject.org/meta-gplv2
+	branch = dunfell
+[submodule "meta-freescale"]
+	path = meta-freescale
+	url = https://git.yoctoproject.org/meta-freescale
+	branch = dunfell
+[submodule "meta-hilscher-netfield-rust"]
+	path = meta-rust
+	url = https://github.com/HilscherAutomation/meta-hilscher-netfield-rust.git
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded
+	branch = dunfell
+[submodule "meta-bsp-imx8mm"]
+	path = meta-bsp-imx8mm
+	url = https://github.com/compulab-yokneam/meta-bsp-imx8mm
+[submodule "meta-clang"]
+	path = meta-clang
+	url = https://github.com/kraj/meta-clang
