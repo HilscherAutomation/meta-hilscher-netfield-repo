@@ -13,38 +13,38 @@
 [submodule "poky"]
 	path = poky
 	url = https://git.yoctoproject.org/poky
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-swupdate"]
 	path = meta-swupdate
 	url = https://github.com/sbabic/meta-swupdate
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-security"]
 	path = meta-security
 	url = https://git.yoctoproject.org/meta-security
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-raspberrypi"]
 	path = meta-raspberrypi
 	url = https://git.yoctoproject.org/meta-raspberrypi
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-intel"]
 	path = meta-intel
 	url = https://git.yoctoproject.org/meta-intel
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-gplv2"]
 	path = meta-gplv2
 	url = https://git.yoctoproject.org/meta-gplv2
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-freescale"]
 	path = meta-freescale
 	url = https://git.yoctoproject.org/meta-freescale
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-hilscher-netfield-rust"]
 	path = meta-rust
 	url = https://github.com/HilscherAutomation/meta-hilscher-netfield-rust.git
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded
-	branch = dunfell
+	branch = kirkstone
 [submodule "meta-bsp-imx8mm"]
 	path = meta-bsp-imx8mm
 	url = https://github.com/compulab-yokneam/meta-bsp-imx8mm
