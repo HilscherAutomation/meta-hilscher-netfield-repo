@@ -51,3 +51,6 @@
 [submodule "meta-clang"]
 	path = meta-clang
 	url = https://github.com/kraj/meta-clang
+[submodule "meta-hilscher-drivers"]
+	path = meta-hilscher-drivers
+	url = https://github.com/HilscherAutomation/meta-hilscher-drivers
