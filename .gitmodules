@@ -38,6 +38,10 @@
 	path = meta-freescale
 	url = https://git.yoctoproject.org/meta-freescale
 	branch = kirkstone
+[submodule "meta-freescale-distro"]
+	path = meta-freescale-distro
+	url = https://github.com/Freescale/meta-freescale-distro
+	branch = kirkstone
 [submodule "meta-hilscher-netfield-rust"]
 	path = meta-rust
 	url = https://github.com/HilscherAutomation/meta-hilscher-netfield-rust.git
@@ -51,3 +55,19 @@
 [submodule "meta-clang"]
 	path = meta-clang
 	url = https://github.com/kraj/meta-clang
+[submodule "meta-rauc"]
+	path = meta-rauc
+	url = https://github.com/rauc/meta-rauc
+	branch = kirkstone
+[submodule "meta-arm"]
+	path = meta-arm
+	url = git://git.yoctoproject.org/meta-arm
+[submodule "meta-phytec"]
+	path = meta-phytec
+	url = git://git.phytec.de/meta-phytec
+[submodule "meta-hilscher-netfield-phytec"]
+	path = meta-hilscher-netfield-phytec
+	url = git@github.com:HilscherAutomation/meta-hilscher-netfield-phytec.git
+[submodule "meta-imx"]
+	path = meta-imx
+	url = https://github.com/nxp-imx/meta-imx

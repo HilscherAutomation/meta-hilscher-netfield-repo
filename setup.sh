@@ -106,7 +106,7 @@ if [ "$platform" = "intel" ]; then
 	echo "NOTE: .auth files have been placed in folder meta-hilscher-netfield-intel/recipes-core/initrdscripts/initramfs-netfield/$machine/"
 	echo "NOTE2: You may need to add a platform_init in the same folder"
 else
-	if [ "$platform" = "imx8" ]; then
+	if [ "$platform" = "imx8" ] || [ "$platform" = "phytec" ]; then
 		echo 'PLATFORM_KEYDIR="${KEYS_DIR}"' >> "${builddir}"/conf/local.overrides.conf
 		echo 'KEYS_DIR="${TOPDIR}/keys/${MACHINE}/boot"' >> "${builddir}"/conf/local.overrides.conf
 		keyname="boot"
@@ -122,7 +122,7 @@ else
 	openssl x509 -outform der -in "${keys_dir}"/${keyname}.crt -out "${keys_dir}"/${keyname}.crt.der
 fi
 
-if [ "$platform" = "imx8" ]; then
+if [ "$platform" = "imx8" ] || [ "$platform" = "phytec" ]; then
 	echo "If you want to use high assurance boot (HAB) you need to manually adopt 'meta-hilscher-netfield-imx8/meta-hab'"
 	echo " and add hab to MACHINE_FEATURES"
 	echo ""
